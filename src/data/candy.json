@@ -1,28 +1,29 @@
-[
-  {
-    "title": "Hershey's Milk Chocolate",
-    "information": [
-      { "brand": "Hersey Chocolate" },
-      { "manufacturer": "The Hershey Company" },
-      { "flavor": "Chocolate Candy" }
-    ],
-    "imgUrl": "https://images.unsplash.com/photo-1600231409360-e58ed635543a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGVyc2hleXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    "price": 36.0,
-    "inStock": true,
-    "numberInStock": 10,
-    "details": "The king size version of the classic Hershey Milk Chocolate Bar. The perfect snack any time of the day! Display box contains 18 Hershey's Milk Chocolate Bar, each with a net weight of 2.6 ounces. Made in the USA. Shipping Weight ~4lbs. Kosher Certified."
-  },
-  {
-    "title": "Snickers Chocolate Bar",
-    "information": [
-      { "brand": "Snickers" },
-      { "manufacturer": "Mars Inc" },
-      { "flavor": "Chocolate Candy" }
-    ],
-    "imgUrl": "https://images.unsplash.com/photo-1611250503393-9424f314d265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c25pY2tlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    "price": 29.95,
-    "inStock": true,
-    "numberInStock": 10,
-    "details": "Snickers! Offered by M&M Mars, these new Snickers have replaced the old Mars Bars with the same great taste and new name. The one and only candy bar with plump, sweet nougat and smothered in chewy and sinful chocolate. Shipping Weight ~4lbs. Kosher Certified."
-  }
+[{
+        "id": "1",
+        "title": "Hershey's Milk Chocolate",
+        "information": [
+            { "brand": "Hersey Chocolate" },
+            { "manufacturer": "The Hershey Company" },
+            { "flavor": "Chocolate Candy" }
+        ],
+        "imgUrl": "https://images.unsplash.com/photo-1600231409360-e58ed635543a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGVyc2hleXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "price": 36.0,
+        "inStock": true,
+        "numberInStock": 10,
+        "details": "The king size version of the classic Hershey Milk Chocolate Bar. The perfect snack any time of the day! Display box contains 18 Hershey's Milk Chocolate Bar, each with a net weight of 2.6 ounces. Made in the USA. Shipping Weight ~4lbs. Kosher Certified."
+    },
+    {
+        "id": "2",
+        "title": "Snickers Chocolate Bar",
+        "information": [
+            { "brand": "Snickers" },
+            { "manufacturer": "Mars Inc" },
+            { "flavor": "Chocolate Candy" }
+        ],
+        "imgUrl": "https://images.unsplash.com/photo-1611250503393-9424f314d265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c25pY2tlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "price": 29.95,
+        "inStock": true,
+        "numberInStock": 10,
+        "details": "Snickers! Offered by M&M Mars, these new Snickers have replaced the old Mars Bars with the same great taste and new name. The one and only candy bar with plump, sweet nougat and smothered in chewy and sinful chocolate. Shipping Weight ~4lbs. Kosher Certified."
+    }
 ]

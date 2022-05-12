@@ -15,24 +15,42 @@ export default defineComponent({
     },
   },
   data() {
-    return {}
+    return {
+      checkoutPrice: 0,
+      checkoutItem: [],
+
+    }
   },
+  computed: {
+    checkoutCost() {
+      // check the cost of the selected items
+
+    }
+  },
+  emits: ['addToCart'],
+  methods: {
+    // addToCart() {
+    //   // add the selected items to the cart
+    // }
+  },
+  onMounted() {},
 })
 </script>
 <template>
   <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
     <img
       class="object-cover w-full rounded-md h-72 xl:h-80"
-      src="https://images.unsplash.com/photo-1574183878891-e08ec44abc37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTczfHxjYW5keXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      :src="sweet.imgUrl"
       alt="Chocolate"
     />
     <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">
-      Assorted Chocos
+      {{ sweet.title }}
     </h4>
-    <p class="text-blue-500">$12.55</p>
+    <p class="text-blue-500">{{ sweet.price }}</p>
 
     <button
       class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700"
+      @click="$emit(addToCart, sweet.price)"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
