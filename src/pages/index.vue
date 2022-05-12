@@ -2,11 +2,17 @@
 import Sidebar from '../components/Sidebar.vue'
 import MainNavbar from '../components/MainNavbar.vue'
 import CandySectionList from '../components/CandySectionList.vue'
+import candyData from '../data/candy.json'
 export default {
   components: {
     Sidebar,
     MainNavbar,
     CandySectionList,
+  },
+  data() {
+    return {
+      candy: candyData,
+    }
   },
 }
 </script>
@@ -17,7 +23,7 @@ export default {
       <Sidebar />
     </div>
     <div class="flex flex-col mx-auto">
-      <CandySectionList />
+      <CandySectionList :candy="candy"/>
     </div>
   </section>
 
